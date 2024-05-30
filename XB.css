@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 600px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+#View{
+    text-align: center;
+}
+
+#Chartbutton{
+    width: 150px;
+    /* position: absolute;
+    top: 93%;
+    left: 43%; */
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    transition: 3 ;
+    cursor: pointer;
+    
+}
+#Chartbutton{
+    background-color: whitesmoke;
+    color: black;}
+
+    a{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        content: center;
+        display: grid;
+    }
+
+.button{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    content: center;
+    display: grid;
+}
+a{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    content: center;
+    display: grid;
+}

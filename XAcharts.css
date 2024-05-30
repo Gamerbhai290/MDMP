@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#myChart1{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+.featured-class {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.featured-class h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.class-list li {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.class-list li:last-child {
+    border-bottom: none;
+}
+
+.class-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f0f0f0;
+}
+
+
+.about {
+    padding: 40px 20px;
+    margin-bottom: 6px;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 300px;
+    margin-top: 3px;
+   padding: 10px;
+}
+
+
+
+.about table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.about th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.about th {
+    background-color: #f2f2f2;
+}
+
+/* Add these styles to the existing CSS file */
+
+.services {
+    padding: 40px 20px;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-list li {
+    margin-bottom: 30px;
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+}
+
+.service-list li h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service-list li p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Add these styles to the existing CSS file */
+
+.contact {
+    padding: 40px 20px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10vh 20vh;
+}
+
+#heading{
+    text-align: center;
+}
+
+#heading:hover{
+    color: purple
+}
+.html{
+        
+    .mychart1 {
+        width: 100%;
+        max-width: 600px; /* Set maximum width as per your design */
+        margin: 0 auto; /* Center the container */
+      }
+    
+    .mychart1{
+       /* Responsive Styles */
+    @media (max-height: 728x) {
+        .mychart1 {
+          max-width: 900px; /* Adjust maximum width for smaller screens */
+        }
+      }
+    }
+}
+.nav-links{
+    /* Responsive Styles */
+ @media (max-height: 1000px) {
+     .nav-links{
+       max-width: 900px; /* Adjust maximum width for smaller screens */
+     }
+   }
+ }
