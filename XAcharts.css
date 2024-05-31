@@ -91,6 +91,8 @@ header {
 .logo {
     font-size: 24px;
     margin: 0;
+    text-decoration: none;
+    
 }
 
 .nav-links {
@@ -254,4 +256,16 @@ header {
        max-width: 900px; /* Adjust maximum width for smaller screens */
      }
    }
+ }
+/* 
+ .back1{
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 45%;
+ } */
+ a{
+    color: inherit;
+    text-decoration: none;
  }
