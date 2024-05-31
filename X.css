@@ -78,8 +78,12 @@ th {
     cursor: pointer;
 }
 #XAbutton:hover{
-    background-color: whitesmoke;
-    color: black;}
+    /* background-color: whitesmoke; */
+    color: white;
+    background: #F0E68C;
+    text-decoration: none;
+    color: inherit;
+}
     .html{
         
         .mychart1 {

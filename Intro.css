@@ -63,7 +63,7 @@
 }
 
 .btn-secondary:hover {
-    background-color: #5a6268;
+    background-color: black;
 }
 
 
@@ -229,4 +229,9 @@ header {
  #Credits{
     position: absolute;
     left: 40%;
+ }
+
+ a{
+    text-decoration: none;
+    color: inherit;
  }
