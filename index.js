@@ -22,6 +22,16 @@
         }
       }
     });
+    const scriptURL = '<iframe width="321" height="198" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5dWrVK2jqfhN74RDdrzfLMQldEEzCtU57FqHShlEJKDLTA0lWN_z17vJsOeSnxt-KVpGMgymYOz8S/pubchart?oid=1841883054&amp;format=interactive"></iframe>'
+    const form = document.forms['form']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thank you! your form is submitted successfully." ))
+        .then(() => {  window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+    })
 
 
     
