@@ -8,3 +8,4 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbzdNDqjIDed5w55211hpg
         .then(() => {  window.location.reload(); })
         .catch(error => console.error('Error!', error.message))
     })
+
