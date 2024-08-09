@@ -227,6 +227,7 @@ header {
 
 #heading{
     text-align: center;
+    color: white;
 }
 
 #heading:hover{
@@ -287,4 +288,7 @@ header {
  #XCcharts{
     width: 1075px;
     height: 401;
+ }
+ body{
+    background: #000;
  }

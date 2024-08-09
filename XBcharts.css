@@ -225,6 +225,7 @@ header {
 
 #heading{
     text-align: center;
+    color: white;
 }
 
 #heading:hover{
@@ -262,4 +263,7 @@ header {
  #MDMP1 :hover{
     color: yellow;
 
+ }
+ body{
+    background: #000;
  }
