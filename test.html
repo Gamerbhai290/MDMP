@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Match-Three Game</title>
+    <style>
+        canvas {
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+<canvas id="gameCanvas" width="400" height="600"></canvas>
+<script>
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Define candy colors
+    const candyColors = ['red', 'orange', 'green', 'blue', 'purple'];
+
+    // Create a simple game board
+    const gameBoard = [
+        ['red', 'orange', 'green', 'blue', 'purple'],
+        ['green', 'blue', 'purple', 'red', 'orange'],
+        ['orange', 'purple', 'red', 'green', 'blue'],
+        ['blue', 'red', 'orange', 'purple', 'green'],
+        ['purple', 'green', 'blue', 'red', 'orange']
+    ];
+
+    // Draw candy on the canvas
+    function drawCandy(x, y, color) {
+        ctx.fillStyle = color;
+        ctx.fillRect(x * 80 + 10, y * 80 + 10, 60, 60);
+    }
+
+    // Draw the game board
+    function drawGameBoard() {
+        for (let i = 0; i < gameBoard.length; i++) {
+            for (let j = 0; j < gameBoard[i].length; j++) {
+                drawCandy(j, i, candyColors[gameBoard[i][j]]);
+            }
+        }
+    }
+
+    // Call the drawGameBoard function
+    drawGameBoard();
+</script>
+</body>
+</html>
